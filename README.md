@@ -1,11 +1,15 @@
 # Application Tracking System(ATS)
- 
+ An intelligent Application Tracking System that evaluates resumes based on job descriptions using Google's Generative AI.
+ <p align="center">
+     <img width="500" alt="ats-1" src="https://github.com/Sreepriya06/Application-Tracking-System/assets/108683400/a1b515d2-6bb4-42cd-9c15-770dac002a4d">
+<img width="500" alt="ats-2" src="https://github.com/Sreepriya06/Application-Tracking-System/assets/108683400/a6551b14-1205-46e0-925a-8342d57ec626">
+<img width="500" alt="ats-3" src="https://github.com/Sreepriya06/Application-Tracking-System/assets/108683400/e6218756-5901-4942-97fd-7196e83843f4">
+ </p>
 
-An intelligent Application Tracking System that evaluates resumes based on job descriptions using Google's Generative AI.
+
 
 ## Features
 
-- User authentication
 - PDF resume parsing
 - Job description matching using Google's Gemini-Pro AI model
 - Visual representation of match percentage
@@ -19,14 +23,13 @@ An intelligent Application Tracking System that evaluates resumes based on job d
 - PyPDF2
 - python-dotenv
 - google-generativeai
-- streamlit-authenticator
 
 ## Setup
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/ats-project.git
-   cd ats-project
+   git clone https://github.com/your-username/Application-Tracking-System.git
+   cd Application-Tracking-System
    ```
 
 
@@ -44,16 +47,12 @@ An intelligent Application Tracking System that evaluates resumes based on job d
    ```
 ## Usage
 
-1. Log in using the provided credentials or create a new account.
-2. Enter the company name and job role.
-3. Paste the job description in the text area.
-4. Upload your resume in PDF format.
-5. Click "Submit" to get an analysis of your resume.
+1. Enter the company name and job role.
+2. Paste the job description in the text area.
+3. Upload your resume in PDF format.
+4. Click "Submit" to get an analysis of your resume.
 
 ## Features Explained
-
-### Authentication
-The app uses `streamlit-authenticator` for user authentication. Predefined usernames and passwords are stored in the script.
 
 ### Resume Parsing
 PyPDF2 is used to extract text from uploaded PDF resumes.
@@ -77,7 +76,3 @@ Previous analyses are stored and can be accessed from the sidebar.
 - `.env`: Environment variables (not in repository)
 - `chat_history.json`: Stores chat history (generated on first run)
 
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
